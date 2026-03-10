@@ -1,0 +1,100 @@
+/* -------- GLOBAL -------- */
+body {
+    background: #f0f4ff !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -------- CARDS -------- */
+.custom-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+}
+
+/* -------- BUTTONS -------- */
+.btn-main {
+    padding: 12px 18px !important;
+    font-size: 16px;
+    border-radius: 10px !important;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.btn-main:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.30);
+}
+
+/* -------- INPUT FIELDS -------- */
+.form-control {
+    padding: 12px !important;
+    border-radius: 10px !important;
+    border: 1px solid #ced4da;
+    transition: 0.2s;
+}
+
+.form-control:focus {
+    border-color: #4e73df !important;
+    box-shadow: 0 0 0 3px rgba(78,115,223,0.3);
+}
+
+/* -------- TABLE -------- */
+.table-custom {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table-custom th {
+    background: #4e73df;
+    color: white;
+    padding: 14px;
+}
+
+.table-custom td {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+/* -------- HEADER BAR -------- */
+.header-bar {
+    background: #4e73df;
+    padding: 18px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 0 0 15px 15px;
+}
+
+/* -------- SIDEBAR -------- */
+.sidebar {
+    width: 230px;
+    height: 100vh;
+    background: #2e59d9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 30px;
+    color: #fff;
+}
+
+.sidebar a {
+    display: block;
+    padding: 14px 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 5px;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background: #224abe;
+    transform: translateX(5px);
+}
+
+/* Icons + text alignment */
+.sidebar i {
+    margin-right: 10px;
+}
